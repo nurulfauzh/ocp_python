@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class ProdukDlivery(ABC) :
+class ProdukDelivery(ABC) :
 
     def __init__(self, price : int, name : str) :
         self.__price = price
